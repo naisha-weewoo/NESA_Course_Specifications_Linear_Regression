@@ -5,7 +5,8 @@ This Jupyter Notebook collection is designed to support students understand the 
 Several versions have been provided:
 
 1. The [Raw Demonstration](raw_course_specification.ipynb) of the course specification provides a direct application (after debugging) of each step of the algorithm.
-2. The [Graphical Demonstration]() of the course specifications provides graphs visualising each step of the algorithm.
+2. The [Graphical Demonstration](graphical_course_specification.ipynb) of the course specifications provides graphs visualising each step of the algorithm.
+3. The [CSV Demonstration](CSV_course_specification.ipynb) of the course specifications uses a CSV upload of the data so larger model training data sets can be used.
 
 > [!Note]
 > There are some variations from the NESA course specifications to address syntax errors, missing methods and readability.
