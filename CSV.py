@@ -6,8 +6,15 @@ from sklearn.linear_model import LinearRegression
 
 
 training_data = pd.read_csv('course_specifications_data.csv', delimiter=',')
-x = training_data.iloc[:, :-1]
-y = training_data.iloc[:, -1]
+x = np.array(training_data.iloc[:,1]).reshape(-1, 1)
+y = np.array(training_data.iloc[:,0])
+m = len(x)
+print(f"Number of training examples is: {m}")
+table = pd.DataFrame({
+    training_data.columns[0]: x.flatten(),  # Flatten x for easy display
+    training_data.columns[1]: y
+})
+print(table.head())
 plt.scatter(x, y, marker='x', c='r')
 plt.title("NESA Course Specifications Data")
 plt.ylabel(f'Training {training_data.columns[0]}')
