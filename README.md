@@ -1,24 +1,50 @@
 # NESA Course Specifications Linear Regression
 
-This Jupyter Notebook collection is designed to support students understand the Linear Regression model defined in the [NESA Software Engineering Course Specifications](https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/94e1eb0a-0df7-4dbe-9b72-5d5e0d17143a/software-engineering-11-12-higher-school-certificate-course-specifications.PDF) pg 28.
-
-Several versions have been provided to support students understand the specification and apply it as a data engineer through the 'Model Development' and 'Operations' stages of the MLOps cycle.
+This Jupyter Notebook collection is designed to support students understand the Linear Regression model defined in the [NESA Software Engineering Course Specifications](https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/94e1eb0a-0df7-4dbe-9b72-5d5e0d17143a/software-engineering-11-12-higher-school-certificate-course-specifications.PDF) pg 28. Multiple approaches encourage students to apply the specification as a Data Engineer through the 'Model Development' and 'Operations' stages of the MLOps cycle.
 
 ![Course Specification MLOps Model](/images/MLOPS_Model.png)
 
 > [!Important]
-> This a corrected version of the course specifications. It is important that students see this model as an omnidirectional looping cycle (think complex design cycle). Particularly in the 'Model Development' stage students should expect to loop through the cycle many times before having a model ready for the operations stage. Or that it is identified design problem and cycle back in to the 'Design' stage before moving forward and again looping repeatedly through the 'Model Development' stage.
+> This a corrected version of the MLOps course specification. It is important that students see this model as an omnidirectional multi loop cycle. Particularly in the 'Model Development' stage, students should expect to loop through the cycle many times before having a model ready for the operations stage. Or that it is likely they will identify a design problem and cycle back in to the 'Design' stage, loop through it, then move forward and again loop repeatedly through the 'Model Development' stage.
 
 ## 2. Model Development
 
 ### 2.1 Data Wrangling
 
-1. The [Data Preprocessing Demonstration](/2.Model_Development/2.1.Data_Wrangling/2.1.1.data_preprocessing.ipynb) provides a demonstration of a basic data preprocessing using the Pandas library.
-2. The [Data Wrangling Demonstration](7.data_wrangling.ipynb) provides a demonstration of wringling data to refine your machine learning model.
+1. The [Understand The Data Set Demonstration](/2.Model_Development/2.1.Data_Wrangling/2.1.1.data_summary.ipynb) provides a demonstration of a basic data wrangling (also called data preprocessing) using the Pandas library. To understand your dataset using snapshots, data summaries and descriptive statistics.
+2. The [Data Wrangling Demonstration](/2.Model_Development/2.1.Data_Wrangling/2.1.2.data_wranglish.ipynb) provides a demonstration of more advanced data wrangling. To clean and prepair the data for analysis, ensuring that it is in a usable format.
+
+
+
+
+
+Data Cleaning:
+- Handling missing values (e.g., imputation, deletion).
+- Removing duplicates.
+- Correcting inconsistencies (e.g., fixing typos).
+Data Transformation:
+- Normalization or standardization (scaling features to a common range).
+- Encoding categorical variables (e.g., one-hot encoding, label encoding).
+- Converting data types (e.g., converting strings to datetime).
+Data Integration:
+- Merging data from different sources to create a unified dataset.
 
 ### 2.2 Feature Engineering
 
-1. The [Feature Engineering Demonstration](/2.Model_Development/2.2.Feature_Engineering/2.2.1.feature_engineering.ipynb) blah blah
+1. The [Feature Engineering Demonstration](/2.Model_Development/2.2.Feature_Engineering/2.2.1.feature_engineering.ipynb) provides a demonstration on enhancing the data set by creating new features or modifying existing ones to improve model performance.
+
+
+
+Creating New Features:
+- Deriving new variables from existing ones (e.g., calculating the age from a birthdate).
+- Combining features (e.g., creating interaction terms).
+Feature Selection:
+- Identifying the most relevant features for the model (e.g., using techniques like recursive feature elimination).
+Transforming Features:
+- Applying mathematical transformations (e.g., logarithmic transformations).
+- Binning continuous variables into categorical bins.
+Domain-Specific Features:
+- Incorporating knowledge from the specific domain to create features that capture important characteristics of the data.
 
 ### 2.3 Model Training
 
