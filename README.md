@@ -23,6 +23,10 @@ Several versions have been provided to support students understand the specifica
 ### 2.3 Model Training
 
 1. The [Raw Demonstration](/2.Model_Development/2.3.Model_Training/2.3.1.raw_course_specification.ipynb) of the course specification provides a direct application (after debugging) of each step of the algorithm.
+
+   > [!Note]
+   > There are some variations from the NESA course specifications to address syntax errors, missing methods and readability.
+
 2. The [Graphical Demonstration](/2.Model_Development/2.3.Model_Training/2.3.2.graphical_course_specification.ipynb) of the course specifications provides graphs visualising each step of the algorithm.
 3. The [CSV Demonstration](/2.Model_Development/2.3.Model_Training/2.3.3.CSV_course_specification.ipynb) of the course specifications uses a CSV upload of the data so larger model training data sets can be used.
 4. The [SQL Demonstration](/2.Model_Development/2.3.Model_Training/2.3.4.SQL_course_specification.ipynb) of the course specifications imports the data from a SQL database so the data can be managed in a database.
@@ -36,9 +40,6 @@ Several versions have been provided to support students understand the specifica
 ### Deploying a Model
 
 9. The [Export Import Demonstration](/3.Operations/3.1.Deploy_Model/3.1.1.export_import_course_specification.ipynb) of the course specifications exports the model so a separate Python implementation can use it to make predictions. The demonstration also includes how to save a Matplotlib image so it can be used in a UI.
-
-   > [!Note]
-   > There are some variations from the NESA course specifications to address syntax errors, missing methods and readability.
 
 ## Metalanguage
 
