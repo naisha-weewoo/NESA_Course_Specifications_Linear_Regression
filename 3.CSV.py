@@ -5,7 +5,7 @@ plt.style.use('deeplearning.mplstyle')
 from sklearn.linear_model import LinearRegression
 
 
-training_data = pd.read_csv('course_specifications_data.csv', delimiter=',')
+training_data = pd.read_csv('3.course_specifications_data.csv', delimiter=',')
 x = np.array(training_data.iloc[:,1]).reshape(-1, 1)
 y = np.array(training_data.iloc[:,0])
 m = len(x)
