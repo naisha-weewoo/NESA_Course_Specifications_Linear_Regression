@@ -4,6 +4,7 @@ This Jupyter Notebook collection is designed to support students understand the 
 
 Several versions have been provided to support students understand the specification and apply it in different contexts:
 
+0. A introduction to [scikit-learn basics with a focus on the Object Oriented Paradigm](0.OOP_in_scikit-learn_ML.ipynb).
 1. The [Raw Demonstration](1.raw_course_specification.ipynb) of the course specification provides a direct application (after debugging) of each step of the algorithm.
 2. The [Graphical Demonstration](2.graphical_course_specification.ipynb) of the course specifications provides graphs visualising each step of the algorithm.
 3. The [CSV Demonstration](3.CSV_course_specification.ipynb) of the course specifications uses a CSV upload of the data so larger model training data sets can be used.
