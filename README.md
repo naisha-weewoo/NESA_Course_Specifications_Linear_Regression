@@ -5,7 +5,14 @@ This Jupyter Notebook collection is designed to support students understand the 
 > [!Note]
 > There are some variations from the NESA course specifications to address syntax errors, missing methods and readability.
 
-Several versions have been provided to support students understand the specification and apply it in different contexts:
+Several versions have been provided to support students understand the specification and apply it in different contexts. Open these Jupyter Notebooks in [Jupyter Notebook](https://jupyter.org/try-jupyter/lab/), VSCode or Codespaces to modify the code/data and run the code blocks.
+
+> [!Important]
+> The configuration for VSCode and Codes spaces have been built into this repository.
+
+---
+
+## Versions
 
 0. A introduction to [scikit-learn basics with a focus on the Object Oriented Paradigm](/examples/0.OOP_in_scikit-learn_ML.ipynb).
 1. The [Raw Demonstration](/examples/1.raw_course_specification.ipynb) of the course specification provides a direct application (after debugging) of each step of the algorithm.
