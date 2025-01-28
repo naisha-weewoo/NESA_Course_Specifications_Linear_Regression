@@ -12,3 +12,4 @@ loaded_model = pickle.load(open('../output/my_saved_model.sav', 'rb'))
 predict = np.array([4]).reshape(1, -1)
 result = loaded_model.predict(predict)
 print(result[0])
+
