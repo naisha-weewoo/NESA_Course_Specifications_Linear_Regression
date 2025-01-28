@@ -14,7 +14,7 @@ Several versions have been provided to support students understand the specifica
 
 ## Demonstrations
 
-0. A introduction to [scikit-learn basics with a focus on the Object Oriented Paradigm](/examples/0.OOP_in_scikit-learn_ML.ipynb).
+0. An introduction to [scikit-learn basics with a focus on the Object Oriented Paradigm](/examples/0.OOP_in_scikit-learn_ML.ipynb).
 1. The [Raw Demonstration](/examples/1.raw_course_specification.ipynb) of the course specification provides a direct application of each step of the algorithm.
 2. The [Graphical Demonstration](/examples/2.graphical_course_specification.ipynb) of the course specifications provides graphs visualising each step of the algorithm.
 3. The [CSV Demonstration](/examples/3.CSV_course_specification.ipynb) of the course specifications uses a CSV upload of the data so larger model training data sets can be used.
