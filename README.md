@@ -12,7 +12,7 @@ Several versions have been provided to support students understand the specifica
 
 ---
 
-## Versions
+## Demonstrations
 
 0. A introduction to [scikit-learn basics with a focus on the Object Oriented Paradigm](/examples/0.OOP_in_scikit-learn_ML.ipynb).
 1. The [Raw Demonstration](/examples/1.raw_course_specification.ipynb) of the course specification provides a direct application of each step of the algorithm.
