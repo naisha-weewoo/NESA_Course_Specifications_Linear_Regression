@@ -2,9 +2,6 @@
 
 This Jupyter Notebook collection is designed to support students understand the Linear Regression model defined in the [NESA Software Engineering Course Specifications](https://library.curriculum.nsw.edu.au/341419dc-8ec2-0289-7225-6db7f2d751ef/94e1eb0a-0df7-4dbe-9b72-5d5e0d17143a/software-engineering-11-12-higher-school-certificate-course-specifications.PDF) pg 28.
 
-> [!Note]
-> There are some variations from the NESA course specifications to address syntax errors, missing methods and readability.
-
 Several versions have been provided to support students understand the specification and apply it in different contexts. Open these Jupyter Notebooks in [Jupyter Notebook](https://jupyter.org/try-jupyter/lab/), VSCode or Codespaces to modify the code/data and run the code blocks.
 
 > [!Important]
