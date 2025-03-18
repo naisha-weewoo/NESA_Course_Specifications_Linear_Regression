@@ -51,8 +51,7 @@
         "ms-toolsai.jupyter-keymap",
         "ms-toolsai.jupyter-renderers",
         "ms-toolsai.vscode-jupyter-slideshow",
-        "ms-toolsai.datawrangler",
-        "ms-python.vscode-python-envs"
+        "ms-toolsai.datawrangler"
       ]
     }
   },
